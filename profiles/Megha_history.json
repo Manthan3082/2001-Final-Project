@@ -1,0 +1,20 @@
+[
+    {
+        "timestamp": "2025-04-10T18:11:08.188483",
+        "symptoms": [
+            "sore throat"
+        ],
+        "diagnosis": [
+            {
+                "disease": "Common Cold",
+                "score": 2,
+                "matched": [
+                    "sore throat (x2)"
+                ],
+                "advice": "Rest, hydrate, and use over-the-counter meds.",
+                "link": "https://www.cdc.gov/dotw/common-cold/index.html",
+                "probability": 100.0
+            }
+        ]
+    }
+]

@@ -1,0 +1,404 @@
+[
+    {
+        "timestamp": "2025-04-10T18:12:21.259546",
+        "symptoms": [
+            "nausea",
+            "vomiting"
+        ],
+        "diagnosis": [
+            {
+                "disease": "Food Poisoning",
+                "score": 10,
+                "matched": [
+                    "vomiting (x2)",
+                    "nausea (x2)"
+                ],
+                "advice": "Rest, rehydrate, and avoid solid food for a while.",
+                "link": "https://www.cdc.gov/foodsafety/symptoms.html",
+                "probability": 100.0
+            },
+            {
+                "disease": "Migraine",
+                "score": 4,
+                "matched": [
+                    "nausea (x2)"
+                ],
+                "advice": "Dark room, pain relievers, reduce triggers.",
+                "link": "https://www.migrainetrust.org/",
+                "probability": 40.0
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-04-10T19:09:59.877560",
+        "symptoms": [
+            "nausea",
+            "vomiting"
+        ],
+        "diagnosis": [
+            {
+                "disease": "Food Poisoning",
+                "score": 10,
+                "matched": [
+                    "vomiting (x2)",
+                    "nausea (x2)"
+                ],
+                "advice": "Rest, rehydrate, and avoid solid food for a while.",
+                "link": "https://www.cdc.gov/foodsafety/symptoms.html",
+                "probability": 100.0
+            },
+            {
+                "disease": "Migraine",
+                "score": 4,
+                "matched": [
+                    "nausea (x2)"
+                ],
+                "advice": "Dark room, pain relievers, reduce triggers.",
+                "link": "https://www.migrainetrust.org/",
+                "probability": 40.0
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-04-10T19:10:53.210474",
+        "symptoms": [
+            "headache",
+            "fatigue"
+        ],
+        "diagnosis": [
+            {
+                "disease": "Migraine",
+                "score": 8,
+                "matched": [
+                    "headache (x2)",
+                    "fatigue (x2)"
+                ],
+                "advice": "Dark room, pain relievers, reduce triggers.",
+                "link": "https://www.migrainetrust.org/",
+                "probability": 100.0
+            },
+            {
+                "disease": "Flu",
+                "score": 4,
+                "matched": [
+                    "fatigue (x2)"
+                ],
+                "advice": "Fluids, rest, and antiviral meds if severe.",
+                "link": "https://www.cdc.gov/flu/symptoms/symptoms.htm",
+                "probability": 50.0
+            },
+            {
+                "disease": "Common Cold",
+                "score": 2,
+                "matched": [
+                    "fatigue (x2)"
+                ],
+                "advice": "Rest, hydrate, and use over-the-counter meds.",
+                "link": "https://www.cdc.gov/dotw/common-cold/index.html",
+                "probability": 25.0
+            },
+            {
+                "disease": "COVID-19",
+                "score": 2,
+                "matched": [
+                    "fatigue (x2)"
+                ],
+                "advice": "Isolate, test, monitor symptoms closely.",
+                "link": "https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19.html",
+                "probability": 25.0
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-04-10T19:15:20.614333",
+        "symptoms": [
+            "fever",
+            "cough"
+        ],
+        "diagnosis": [
+            {
+                "disease": "COVID-19",
+                "score": 8,
+                "matched": [
+                    "fever (x2)",
+                    "cough (x2)"
+                ],
+                "advice": "Isolate, test, monitor symptoms closely.",
+                "link": "https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19.html",
+                "probability": 100.0
+            },
+            {
+                "disease": "Flu",
+                "score": 6,
+                "matched": [
+                    "fever (x2)",
+                    "cough (x2)"
+                ],
+                "advice": "Fluids, rest, and antiviral meds if severe.",
+                "link": "https://www.cdc.gov/flu/symptoms/symptoms.htm",
+                "probability": 75.0
+            },
+            {
+                "disease": "Asthma",
+                "score": 4,
+                "matched": [
+                    "cough (x2)"
+                ],
+                "advice": "Use prescribed inhalers. Avoid allergens.",
+                "link": "https://www.cdc.gov/asthma/default.htm",
+                "probability": 50.0
+            },
+            {
+                "disease": "Common Cold",
+                "score": 2,
+                "matched": [
+                    "cough (x2)"
+                ],
+                "advice": "Rest, hydrate, and use over-the-counter meds.",
+                "link": "https://www.cdc.gov/dotw/common-cold/index.html",
+                "probability": 25.0
+            },
+            {
+                "disease": "Food Poisoning",
+                "score": 2,
+                "matched": [
+                    "fever (x2)"
+                ],
+                "advice": "Rest, rehydrate, and avoid solid food for a while.",
+                "link": "https://www.cdc.gov/foodsafety/symptoms.html",
+                "probability": 25.0
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-04-10T19:25:37.719997",
+        "symptoms": [
+            "fever",
+            "cough"
+        ],
+        "diagnosis": [
+            {
+                "disease": "COVID-19",
+                "score": 8,
+                "matched": [
+                    "fever (x2)",
+                    "cough (x2)"
+                ],
+                "advice": "Isolate, test, monitor symptoms closely.",
+                "link": "https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19.html",
+                "probability": 100.0
+            },
+            {
+                "disease": "Flu",
+                "score": 6,
+                "matched": [
+                    "fever (x2)",
+                    "cough (x2)"
+                ],
+                "advice": "Fluids, rest, and antiviral meds if severe.",
+                "link": "https://www.cdc.gov/flu/symptoms/symptoms.htm",
+                "probability": 75.0
+            },
+            {
+                "disease": "Asthma",
+                "score": 4,
+                "matched": [
+                    "cough (x2)"
+                ],
+                "advice": "Use prescribed inhalers. Avoid allergens.",
+                "link": "https://www.cdc.gov/asthma/default.htm",
+                "probability": 50.0
+            },
+            {
+                "disease": "Common Cold",
+                "score": 2,
+                "matched": [
+                    "cough (x2)"
+                ],
+                "advice": "Rest, hydrate, and use over-the-counter meds.",
+                "link": "https://www.cdc.gov/dotw/common-cold/index.html",
+                "probability": 25.0
+            },
+            {
+                "disease": "Food Poisoning",
+                "score": 2,
+                "matched": [
+                    "fever (x2)"
+                ],
+                "advice": "Rest, rehydrate, and avoid solid food for a while.",
+                "link": "https://www.cdc.gov/foodsafety/symptoms.html",
+                "probability": 25.0
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-04-10T19:25:57.514893",
+        "symptoms": [
+            "fatigue"
+        ],
+        "diagnosis": [
+            {
+                "disease": "Flu",
+                "score": 4,
+                "matched": [
+                    "fatigue (x2)"
+                ],
+                "advice": "Fluids, rest, and antiviral meds if severe.",
+                "link": "https://www.cdc.gov/flu/symptoms/symptoms.htm",
+                "probability": 100.0
+            },
+            {
+                "disease": "Common Cold",
+                "score": 2,
+                "matched": [
+                    "fatigue (x2)"
+                ],
+                "advice": "Rest, hydrate, and use over-the-counter meds.",
+                "link": "https://www.cdc.gov/dotw/common-cold/index.html",
+                "probability": 50.0
+            },
+            {
+                "disease": "Migraine",
+                "score": 2,
+                "matched": [
+                    "fatigue (x2)"
+                ],
+                "advice": "Dark room, pain relievers, reduce triggers.",
+                "link": "https://www.migrainetrust.org/",
+                "probability": 50.0
+            },
+            {
+                "disease": "COVID-19",
+                "score": 2,
+                "matched": [
+                    "fatigue (x2)"
+                ],
+                "advice": "Isolate, test, monitor symptoms closely.",
+                "link": "https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19.html",
+                "probability": 50.0
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-04-17T17:24:08.169323",
+        "symptoms": [
+            "fever",
+            "cough"
+        ],
+        "diagnosis": [
+            {
+                "disease": "COVID-19",
+                "score": 8,
+                "matched": [
+                    "fever (x2)",
+                    "cough (x2)"
+                ],
+                "advice": "Isolate, test, monitor symptoms closely.",
+                "link": "https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19.html",
+                "probability": 100.0
+            },
+            {
+                "disease": "Flu",
+                "score": 6,
+                "matched": [
+                    "fever (x2)",
+                    "cough (x2)"
+                ],
+                "advice": "Fluids, rest, and antiviral meds if severe.",
+                "link": "https://www.cdc.gov/flu/symptoms/symptoms.htm",
+                "probability": 75.0
+            },
+            {
+                "disease": "Asthma",
+                "score": 4,
+                "matched": [
+                    "cough (x2)"
+                ],
+                "advice": "Use prescribed inhalers. Avoid allergens.",
+                "link": "https://www.cdc.gov/asthma/default.htm",
+                "probability": 50.0
+            },
+            {
+                "disease": "Common Cold",
+                "score": 2,
+                "matched": [
+                    "cough (x2)"
+                ],
+                "advice": "Rest, hydrate, and use over-the-counter meds.",
+                "link": "https://www.cdc.gov/dotw/common-cold/index.html",
+                "probability": 25.0
+            },
+            {
+                "disease": "Food Poisoning",
+                "score": 2,
+                "matched": [
+                    "fever (x2)"
+                ],
+                "advice": "Rest, rehydrate, and avoid solid food for a while.",
+                "link": "https://www.cdc.gov/foodsafety/symptoms.html",
+                "probability": 25.0
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-04-17T17:31:48.061770",
+        "symptoms": [
+            "fever",
+            "cough"
+        ],
+        "diagnosis": [
+            {
+                "disease": "COVID-19",
+                "score": 8,
+                "matched": [
+                    "fever (x2)",
+                    "cough (x2)"
+                ],
+                "advice": "Isolate, test, monitor symptoms closely.",
+                "link": "https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19.html",
+                "probability": 100.0
+            },
+            {
+                "disease": "Flu",
+                "score": 6,
+                "matched": [
+                    "fever (x2)",
+                    "cough (x2)"
+                ],
+                "advice": "Fluids, rest, and antiviral meds if severe.",
+                "link": "https://www.cdc.gov/flu/symptoms/symptoms.htm",
+                "probability": 75.0
+            },
+            {
+                "disease": "Asthma",
+                "score": 4,
+                "matched": [
+                    "cough (x2)"
+                ],
+                "advice": "Use prescribed inhalers. Avoid allergens.",
+                "link": "https://www.cdc.gov/asthma/default.htm",
+                "probability": 50.0
+            },
+            {
+                "disease": "Common Cold",
+                "score": 2,
+                "matched": [
+                    "cough (x2)"
+                ],
+                "advice": "Rest, hydrate, and use over-the-counter meds.",
+                "link": "https://www.cdc.gov/dotw/common-cold/index.html",
+                "probability": 25.0
+            },
+            {
+                "disease": "Food Poisoning",
+                "score": 2,
+                "matched": [
+                    "fever (x2)"
+                ],
+                "advice": "Rest, rehydrate, and avoid solid food for a while.",
+                "link": "https://www.cdc.gov/foodsafety/symptoms.html",
+                "probability": 25.0
+            }
+        ]
+    }
+]

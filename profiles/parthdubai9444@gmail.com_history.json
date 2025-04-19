@@ -1,0 +1,118 @@
+[
+    {
+        "timestamp": "2025-04-17T19:39:15.708342",
+        "symptoms": [
+            "muscle aches"
+        ],
+        "diagnosis": [
+            {
+                "disease": "Flu",
+                "score": 4,
+                "matched": [
+                    "muscle aches (x2)"
+                ],
+                "advice": "Fluids, rest, and antiviral meds if severe.",
+                "link": "https://www.cdc.gov/flu/symptoms/symptoms.htm",
+                "probability": 100.0
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-04-17T19:39:59.947125",
+        "symptoms": [
+            "muscle aches",
+            "cough"
+        ],
+        "diagnosis": [
+            {
+                "disease": "Flu",
+                "score": 6,
+                "matched": [
+                    "muscle aches (x2)",
+                    "cough (x2)"
+                ],
+                "advice": "Fluids, rest, and antiviral meds if severe.",
+                "link": "https://www.cdc.gov/flu/symptoms/symptoms.htm",
+                "probability": 100.0
+            },
+            {
+                "disease": "COVID-19",
+                "score": 4,
+                "matched": [
+                    "cough (x2)"
+                ],
+                "advice": "Isolate, test, monitor symptoms closely.",
+                "link": "https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19.html",
+                "probability": 66.67
+            },
+            {
+                "disease": "Asthma",
+                "score": 4,
+                "matched": [
+                    "cough (x2)"
+                ],
+                "advice": "Use prescribed inhalers. Avoid allergens.",
+                "link": "https://www.cdc.gov/asthma/default.htm",
+                "probability": 66.67
+            },
+            {
+                "disease": "Common Cold",
+                "score": 2,
+                "matched": [
+                    "cough (x2)"
+                ],
+                "advice": "Rest, hydrate, and use over-the-counter meds.",
+                "link": "https://www.cdc.gov/dotw/common-cold/index.html",
+                "probability": 33.33
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-04-17T19:40:03.109909",
+        "symptoms": [
+            "cough"
+        ],
+        "diagnosis": [
+            {
+                "disease": "COVID-19",
+                "score": 4,
+                "matched": [
+                    "cough (x2)"
+                ],
+                "advice": "Isolate, test, monitor symptoms closely.",
+                "link": "https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19.html",
+                "probability": 100.0
+            },
+            {
+                "disease": "Asthma",
+                "score": 4,
+                "matched": [
+                    "cough (x2)"
+                ],
+                "advice": "Use prescribed inhalers. Avoid allergens.",
+                "link": "https://www.cdc.gov/asthma/default.htm",
+                "probability": 100.0
+            },
+            {
+                "disease": "Common Cold",
+                "score": 2,
+                "matched": [
+                    "cough (x2)"
+                ],
+                "advice": "Rest, hydrate, and use over-the-counter meds.",
+                "link": "https://www.cdc.gov/dotw/common-cold/index.html",
+                "probability": 50.0
+            },
+            {
+                "disease": "Flu",
+                "score": 2,
+                "matched": [
+                    "cough (x2)"
+                ],
+                "advice": "Fluids, rest, and antiviral meds if severe.",
+                "link": "https://www.cdc.gov/flu/symptoms/symptoms.htm",
+                "probability": 50.0
+            }
+        ]
+    }
+]
